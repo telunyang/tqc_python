@@ -1,6 +1,10 @@
 # TQC-Python
 每一題皆經過 Code Judger 平台測試：「答案正確」
 
+## 網頁連結
+- [TQC+ 基礎程式語言 Python 3](https://www.tqcplus.org.tw/CertificateDetail.aspx?CODE=y/zEfkGeQhM=)
+- [Code Judger](https://www.codejudger.com/)
+
 ## 推薦測驗機構
 - 聯成電腦
   - [館前認證中心](https://goo.gl/maps/qLTNrKBFhT9ajHXd7)
