@@ -31,7 +31,7 @@ Sum of all digits of 0 is 0
 Sum of all digits of 769 is 22
 '''
 n = eval(input())
-for i in range(ｎ):
+for i in range(n):
     sum = 0
     num = input()
     for char in num:
