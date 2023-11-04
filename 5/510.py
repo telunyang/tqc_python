@@ -30,6 +30,22 @@ Fn = Fn-1 + Fn-2
 範例輸出2
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 
 '''
+# 簡易寫法
+num = eval(input())
+def compute(num):
+    l = [0,1]
+    if num > 2:
+        for i in range(num-2): 
+            l.append(l[-2] + l[-1])
+    return l
+
+l = compute(num)
+for n in l:
+    print(n, end=" ")
+
+
+
+# 一般寫法
 num = eval(input())
 def compute(num):
     if num == 0: return 0
