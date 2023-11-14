@@ -48,4 +48,4 @@ while True:
     t2 += (n,)
 t = t1 + t2
 print(f'Combined tuple before sorting: {t}')
-print(f'Combined list after sorting: {sorted(list(t))}')
+print(f'Combined list after sorting: {sorted(t)}')
