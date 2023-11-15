@@ -37,7 +37,5 @@ with open(file, "r", encoding="utf-8") as f:
     content = f.read()
 print(content)
 print('=== After the replacement')
-with open(file, "w", encoding="utf-8") as f:
-    content = content.replace(s1, s2)
-    f.write(content)
+content = content.replace(s1, s2)
 print(content)
